@@ -40,7 +40,7 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
       <head>
         <HeadContent />
       </head>
-      <body>
+      <body style={{ margin: 0, padding: 0, backgroundColor: '#000000' }}>
         {children}
         <Scripts />
       </body>
